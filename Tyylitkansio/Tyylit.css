@@ -1,12 +1,11 @@
 div.Pää {
     background: black;
-    width: 100%;
     height: 10%;
-    color: white;
+    color: whitesmoke;
     padding: 3%;
     text-align: center;
     display: flex;
-    box-shadow: -15px 45px 33px 15px #000000;
+    box-shadow: -15px 45px 33px 40px #000000;
 }
 
 html, body {
