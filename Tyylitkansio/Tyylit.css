@@ -166,7 +166,7 @@ html, body {
 }
 
 
-div.kuva {
+#kuva {
     margin: -4px 0px -80px -180px;
     position: static;
     text-align: left;
@@ -174,7 +174,13 @@ div.kuva {
 
 #navigation {
     text-align: center;
-    margin: 2% 0% 0% 6%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0% 0% 17.5%;
+    padding: 1% 0% 0% 0%;
+
 }
 
 .Linkit {
@@ -236,6 +242,9 @@ H1 {
 #Contact_info {
     text-align: center;
     margin: 25% 31% 0% 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #Contact_info li {
@@ -252,6 +261,10 @@ H1 {
 
 #otsikko_otsikko {
     font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 0% 0% 1%;
 }
 
 #Contact_otsikko {
@@ -259,15 +272,18 @@ H1 {
     margin: -7% 0% -7% 0%;
 }
 
-
-.freetime1 {
-    margin: 10% 0% 0% 0px;
+#harrastukset {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     text-align: center;
-    
+
 }
 
-.freetime2 {
-    margin: 2% 0% 0% 0px;
+
+.freetime1 {
+    margin: 10% 0% 0% 1%;
     text-align: center;
 }
 
